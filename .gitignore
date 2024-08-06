@@ -1,1 +1,4 @@
-./boilerplate.html
+boilerplate.html
+
+*.md
+!README.md
