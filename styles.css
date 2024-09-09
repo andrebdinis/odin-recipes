@@ -8,17 +8,28 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: rgb(239, 242, 245);
+}
+
 .title {
-    font-family: cursive, sans-serif;
-    font-size: 3rem;
+    font-family: Arial, sans-serif;
+    font-size: 5rem;
     padding-left: 10px;
+    text-align: center;
+}
+
+ul {
+    width: 800px;
+    margin: 0 auto;
 }
 
 .ul-recipes {
     line-height: 1.5;
-    list-style: upper-roman inside;
+    list-style: none;
+    /* list-style: upper-roman inside; */
 }
 .ul-recipes li {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding-left: 10px;
 }
